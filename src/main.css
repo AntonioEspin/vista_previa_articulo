@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    border-radius: 10px;
+    margin: 80px auto;
+    background-color: white;
+    
+}
+
+/* parte de la imagen */
+.container__image {
+    width: 100%;
+    margin: 0;
+}
+
+.container__image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* parte de la informacion */
+.container__info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+.container__info h1 {
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 1.1em;
+    word-spacing: -1px;
+    color: hsl(217, 19%, 35%);
+}
+
+.container__info p {
+    font-size: 0.8em;
+    text-align: left;
+    font-weight: 700;
+    word-spacing: 3px;
+    color: hsl(214, 17%, 51%);
+}
+
+/* seccion persona */
+
+.container__person {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.persons {
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container__person--img {
+    margin: 0;
+    width: 50px;  
+}
+
+.container__person--img img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.container__person--details {
+    width: 135px;
+}
+
+.container__person--details p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.container__person--details span {
+    margin: 0;
+    font-size: 0.9em;
+    color: hsl(212, 23%, 69%);
+}
+
+.container__person--share {
+    padding: 10px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+}
