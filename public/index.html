@@ -15,36 +15,48 @@
   </style>
 </head>
 <body>
-  <main class="container">
+  <main class="container" id="container">
     <figure class="container__image">
       <img src="../images/drawers.jpg" alt="drawers">
     </figure>
-    <section class="container__info">
-      <h1>
-        Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
-      </h1>
-      <p>Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.
-      </p>
-    </section>
-    <section class="container__person">
-      <div class="persons">
-        <figure class="container__person--img">
-          <img src="../images/avatar-michelle.jpg" alt="avatar">
-        </figure>
-        <div  class="container__person--details">
-          <p>Michelle Appleton</p>
-          <span>28 Jun 2020</span>
+    <article class="container-article">
+      <section class="container__info">
+        <h1>
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h1>
+        <p>Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+        </p>
+      </section>
+      <section class="container__person">
+        <div class="persons">
+          <figure class="container__person--img">
+            <img src="../images/avatar-michelle.jpg" alt="avatar">
+          </figure>
+          <div  class="container__person--details">
+            <p>Michelle Appleton</p>
+            <span>28 Jun 2020</span>
+          </div>
         </div>
-      </div>
-      <input class="container__person--share" type="image" src="../images/icon-share.svg" id="image-share">
-    </section>
-  </main> 
+        <input class="container__person--share" type="image" src="../images/icon-share.svg" id="image-share">
+      </section>
+    </article>
+    <nav class="nav-share" id="nav-share">
+      <p>SHARE</p>
+      <ul class="nav-share__social">
+        <li><a href=""><img src="../images/icon-facebook.svg" alt="icon-facebook"></a></li>
+        <li><a href=""><img src="../images/icon-twitter.svg" alt="icon-twitter"></a></li>
+        <li><a href=""><img src="../images/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+      </ul>
+      <input class="nav-share__link" type="image" src="../images/icon-share-white.svg">
+    </nav>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Antonio Espin</a>.
   </div>
+  <script src="../src/index.js"></script>
 </body>
 </html>
